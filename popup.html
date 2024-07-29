@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="navbar">
+        <a href="favorites.html">Crypto Lens</a>
+
+    <div id="favorites-count-container">
+        <span id="favorites-count">Favorites: 0</span>
+    </div>
+</div>
+
+    <div id="content">
+        <div id="crypto-list">
+            <table id="crypto-table">
+                <thead>
+                    <tr>
+                        <th>Icon</th>
+                        <th>Symbol</th>
+                        <th>Rank</th>
+                        <th>Name</th>
+                    </tr>
+                </thead>
+                <tbody id="crypto-table-body">
+                    <!-- Cryptocurrency items will be populated here -->
+                </tbody>
+            </table>
+        </div>
+
+        <div id="favorites-list" style="display:none;">
+            <table id="favorites-table">
+                <thead>
+                    <tr>
+                        <th>Icon</th>
+                        <th>Symbol</th>
+                        <th>Name</th>
+                        <th>Current Price</th>
+                    </tr>
+                </thead>
+                <tbody id="favorites-table-body">
+                    <!-- Favorite items will be populated here -->
+                </tbody>
+            </table>
+            <button id="add-more" class="btn">+</button>
+        </div>
+    </div>
+   
+    <script src="popup.js"></script>
+</body>
+
+</html>

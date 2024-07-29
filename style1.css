@@ -1,0 +1,118 @@
+/* Basic reset and styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: relative;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h1 {
+    font-size: 16px;
+    text-align: center;
+    margin: 10px 0;
+}
+#favorites-count-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+#favorites-count {
+    margin-right: 20px;
+    /* Adjust as needed for spacing */
+}
+#favorites-count {
+    text-align: left;
+}
+/* Crypto list styles */
+#crypto-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+.fav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Favorites section styles */
+#favorites-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+thead {
+    background-color: #3498db;
+    color: #fff;
+}
+
+thead th {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 2px solid #3498db;
+}
+
+tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+tbody td {
+    padding: 10px;
+    text-align: left;
+}
+
+img {
+    border-radius: 50%;
+}
+
+/* Button styles */
+.btn {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+
+.btn:focus {
+    outline: none;
+}

@@ -1,0 +1,36 @@
+{
+    "manifest_version": 3,
+    "name": "Crypto Tracker",
+    "version": "1.0",
+    "description": "Track and manage your favorite cryptocurrencies.",
+    "action": {
+        "default_popup": "favorites.html"
+    },
+    "permissions": [
+        "storage"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "style.css",
+                "popup.js",
+                "popup.html",
+                "favorites.js",
+                "style.css",
+                "style1.css"
+            ],
+            "matches": [
+                "<all_urls>"
+            ]
+        }
+    ],
+    "icons": {
+        "48": "icon.png"
+    },
+    "host_permissions": [
+        "https://api.coingecko.com/*"
+    ]
+}

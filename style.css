@@ -1,0 +1,115 @@
+/* Basic reset and styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    width: 300px; /* Adjust as needed for popup size */
+    height: 400px; /* Adjust as needed */
+    overflow: auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: relative;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+h1 {
+    font-size: 16px;
+    text-align: center;
+    margin: 10px 0;
+}
+#favorites-count {
+    text-align: left;
+}
+.add-more{
+text-decoration: none;
+color: #fff;
+}
+/* Main content styles */
+#content {
+    padding: 10px;
+}
+#favorites-count-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 75%;
+}
+
+#favorites-count {
+    margin-right: 20px;
+    /* Adjust as needed for spacing */
+}
+#crypto-list, #favorites-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+thead {
+    background-color: #3498db;
+    color: #fff;
+}
+
+thead th {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #3498db;
+}
+
+tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+tbody td {
+    padding: 10px;
+    text-align: left;
+}
+
+img {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+/* Button styles */
+#add-more {
+    background-color: #3c78e7;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#add-more:hover {
+    background-color: #2b89c0;
+}
+
+#add-more:focus {
+    outline: none;
+}
